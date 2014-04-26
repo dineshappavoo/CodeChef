@@ -3,6 +3,8 @@
  */
 package maximalpathscore;
 
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 /**
@@ -14,6 +16,8 @@ public class MaximalPathScore {
 	/**
 	 * @param args
 	 */
+	public static Graph graph=null;
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		new MaximalPathScore().constructGraph();
@@ -24,7 +28,6 @@ public class MaximalPathScore {
 	{
 		int noOfVertices,noOfEdges;
 		int u, v, w;
-		Graph graph=null;
 		Scanner scanner=new Scanner(System.in);
 		while(scanner.hasNext())
 		{
@@ -43,6 +46,13 @@ public class MaximalPathScore {
 		}
 		graph.printGraph();
 
+	}
+ 
+	public boolean doBFS(int source, int dest)
+	{
+		Queue<Edge> queue=new LinkedList<Edge>();
+		queue.add(source);
+		
 	}
 
 }
