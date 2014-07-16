@@ -4,7 +4,7 @@
 package maximalpathscore;
 
 /**
- * @author Dany
+ * @author Dinesh Appavoo
  *
  */
 public class Edge {
