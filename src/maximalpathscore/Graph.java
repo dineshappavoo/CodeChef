@@ -3,7 +3,7 @@ package maximalpathscore;
 import java.util.ArrayList;
 
 /**
- * @author Dany
+ * @author Dinesh Appavoo
  *
  */
 public class Graph {
